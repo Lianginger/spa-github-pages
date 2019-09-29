@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Single Page Apps for GitHub Pages</title>
+    <script type="text/javascript">
+      const pathStartIndex = window.location.href.lastIndexOf('/')
+      const pathEndIndex = window.location.href.lastIndexOf('.')
+      const pathName = window.location.href.slice(pathStartIndex + 1, pathEndIndex)
+      const goalURL = window.location.href.slice(0, pathStartIndex)
+      window.location.replace(goalURL + '/?' + pathName)
+    </script>
+  </head>
+  <body></body>
+</html>
